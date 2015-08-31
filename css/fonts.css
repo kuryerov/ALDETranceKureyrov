@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "open-sans-light-webfont";
+	src: url("../fonts/open-sans-light-webfont/open-sans-light-webfont.eot");
+	src: url("../fonts/open-sans-light-webfont/open-sans-light-webfont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/open-sans-light-webfont/open-sans-light-webfont.woff") format("woff"),
+			 url("../fonts/open-sans-light-webfont/open-sans-light-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+			 url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+	src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+			 url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "exo-20-bold";
+	src: url("../fonts/exo-20-bold/exo-20-bold.eot");
+	src: url("../fonts/exo-20-bold/exo-20-bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/exo-20-bold/exo-20-bold.woff") format("woff"),
+			 url("../fonts/exo-20-bold/exo-20-bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Exo2.0-Thin";
+	src: url("../fonts/exo-20-thin/Exo2.0-Thin.eot");
+	src: url("../fonts/exo-20-thin/Exo2.0-Thin.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/exo-20-thin/Exo2.0-Thin.woff") format("woff"),
+			 url("../fonts/exo-20-thin/Exo2.0-Thin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

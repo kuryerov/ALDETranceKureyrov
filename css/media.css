@@ -1,0 +1,270 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.head .navbar .navbar-nav > li + li{
+		margin-left: 30px;
+	}
+	.head .navbar-collapse{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.head .navbar .navbar-brand{
+		padding-left: 45px;
+	}
+	.head .navbar .navbar-nav{
+		padding-right: 15px;
+	}
+	.center_bg_image{
+		min-height: 655px
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.head .navbar .navbar-nav > li + li{
+		margin-left: 20px;
+	}	
+	.head .navbar .navbar-brand{
+		padding-left: 20px;
+	}
+	.head .navbar .navbar-nav{
+		padding-right: 0px;
+	}
+	.head .nav_container{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.mail_add{
+		display: block;
+	}
+	.header_content .header_form .contacts {
+ 		   line-height: 24px;
+    		   margin-top: 16px;
+	}
+	.header_content .header_text p{
+		width: 700px;
+	}
+	.header_content{
+		height: 610px;
+	}
+	.header_content .header_form{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+@media only screen and (max-width : 860px) {
+	.head .navbar .navbar-nav > li + li{
+		margin-left: 13px;
+	}	
+	.head .navbar .navbar-brand{
+		padding-left: 25px;
+	}
+	.head .navbar .navbar-nav{
+		padding-right: 5px;
+	}
+	.head .nav_container{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.head .dropdown-menu,
+	.head .navbar .navbar-nav{
+		font-size: 12px;
+	}
+	.header_content .form-control{
+		padding-left: 4px;
+		padding-right: 0;
+	}
+	.any_transport h2{
+		margin-top: 115px;
+		margin-bottom: -10px;
+	}
+	.any_transport p{
+		margin-bottom: 80px;
+	}
+	.any_transport .thumb_wrap{
+		margin: 0 40px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.head .navbar .navbar-brand{
+		padding-left: 38px;
+	}
+	.head .navbar .navbar-nav > li + li{
+		margin-left: 0;
+	}
+	.head .navbar .navbar-nav {
+  	 	 margin-right: 70px;
+  	 	 margin-top: 45px;
+  	 	 margin-bottom: 45px;
+   		 text-align: right;
+	}
+	.head .navbar .navbar-nav .open .dropdown-toggle::after, .head .navbar .navbar-nav .info::after{
+		text-align: inherit;
+		right: -40px;
+		bottom: 19px;
+		border-bottom: none;
+		color: #000;
+	}
+	.dropdown-menu{
+		padding-right: 0;
+		text-align: right;
+		padding-top: 0px;
+		padding-bottom: 45px;
+	}
+	.dropdown-menu > li + li{
+		margin-top: 5px;
+	}
+	.navbar-nav .open .dropdown-menu > li > a{
+		padding-right: 0;		
+	}
+	.head .dropdown-menu, .head .navbar .navbar-nav{
+		font-size: 14px;
+	}
+	.head .navbar-collapse{
+		background-color: rgba(212,231,228,.50);
+	}
+	.head .navbar .navbar-nav .dropdown-menu{
+		background-color: transparent;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+		color:#004e6b ;
+	}
+	.head .navbar .navbar-nav a{
+		line-height: 25px;
+	}
+	.head .navbar .navbar-nav .dropdown-menu a{
+		line-height: 19px;
+	}
+	.header_content .header_form .contacts {
+		    margin-top: 10px;
+	}
+	.any_transport .thumb_wrap{
+		background-image: none;
+	}
+	.center_bg_image{
+		min-height: 1550px;
+		background-image: none;
+		background-color: #d7e8e5;
+	}
+	.any_transport .responses{
+		top:640px;
+	}
+	.any_transport .responses p{
+		padding: 20px 0 20px 45px;
+	}
+	.header_content .header_form{
+		height: 130px;
+		margin-bottom: 15px;
+	}
+
+}
+@media only screen and (max-width : 730px) {
+	.header_content .contacts{
+		font-size: 12px;
+	}
+	.header_content .header_form{
+		padding: 0 20px;
+	}
+	.header_content .form-control{
+		padding-left: 3px;
+		padding-right: 0;
+	}
+	.header_content .header_text p{
+		width: 440px;
+	}
+	.header_content .header_form .contacts {
+		     line-height: 21px;
+		    margin-top: 18px;
+		    font-size: 14px;
+	}
+	.header_content .header_form .form-control{
+		font-size: 13px;
+	}
+	.header_content .header_text h1{
+		font-size: 40px;
+	}
+
+}	
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.any_transport h2{
+		margin-top: 35px;
+		margin-bottom: 0;
+		font-size: 36px;
+	}
+	.any_transport p{
+		margin-bottom: 15px;
+		font-size: 36px;
+	}
+	.any_transport .thumb_wrap{
+		margin: 0 10px;
+	}
+	.header_content .header_text p{
+		width: 300px;
+	}
+	.header_content .header_text h1{
+		font-size: 35px;
+	}
+	.header_content{
+		height: 650px;
+	}
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	 .header_content:after,
+	 .transport_container:after,.head .navbar{
+			background-image: url(../img/bg320.png);
+		}
+	.head .navbar-toggle{
+			right:16px;
+		}
+	.head .navbar .navbar-brand{
+		padding-left: 16px;
+	}
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 321px) {
+	 .header_content:after,
+	 .transport_container:after,.head .navbar {
+			background-image: url(../img/bg768.png);
+		}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	 .header_content:after,
+	 .transport_container:after,.head .navbar {
+			background-image: url(../img/bg1600.png);
+		}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
