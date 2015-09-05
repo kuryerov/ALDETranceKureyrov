@@ -16,7 +16,34 @@
 		padding-right: 15px;
 	}
 	.center_bg_image{
-		min-height: 655px
+		min-height: 590px
+	}
+	.multy_transporting .img_wrapper{
+		float: none;
+		width: 100%;
+	}
+	.multy_transporting .img_wrapper h2,
+	.multy_transporting .img_wrapper h3{display: inline-block;}
+	.multy_transporting .img_wrapper .caption{
+		height: 320px;
+		padding-left: 50px;
+	}
+	.multy_transporting .img_wrapper .caption p{
+		left: 50px;
+		top: 70px;
+		max-width: 450px;
+	}
+	.multy_transporting .img_wrapper .caption .btn{
+		top: 250px;
+		left: 50px;
+	}
+	.multy_transporting .img_wrapper .caption img{
+		right: 100px;
+		top: 10px;
+	}
+	.multy_transporting .img_wrapper .caption{
+		border-right: none;
+		border-bottom: 1px solid #f7f7f7;
 	}
 }
 
@@ -52,6 +79,7 @@
 		padding-right: 40px;
 		padding-left: 40px;
 	}
+	.our_clients .opinion p::after{right:-70px;}
 }
 @media only screen and (max-width : 860px) {
 	.head .navbar .navbar-nav > li + li{
@@ -85,7 +113,11 @@
 	.any_transport .thumb_wrap{
 		margin: 0 40px;
 	}
-
+	.our_clients .logo_item{width: 135px;}
+	.our_clients h2{margin-top: 90px;}
+	.our_clients .opinion p{max-width: 560px}
+	.our_clients .opinion p::after{right:-135px;}
+	.questions .questions_wrapper{max-width: 630px;}
 }
 
 /* Small Devices, Tablets */
@@ -150,6 +182,9 @@
 		background-image: none;
 		background-color: #d7e8e5;
 	}
+	.center_bg_image::after{
+		border-top: 50px solid #d7e8e5;
+	}
 	.any_transport .responses{
 		top:640px;
 	}
@@ -160,8 +195,46 @@
 		height: 130px;
 		margin-bottom: 15px;
 	}
+	.center_bg_image{
+		min-height: 1020px;
+	}
+	.your_contacts .form-control{
+		width: 450px;
+	}
+	.multy_transporting .top_text{
+		-webkit-background-size: 100% auto;
+		background-size: 100% auto;
+		background-position: center 55px;
+	}
 
+	.multy_transporting .text_items .thumbnail .caption{
+		padding: 35px 0;
+		border-bottom:  1px solid rgba(255,255,255,0.65);
+	}
+	.multy_transporting .img_wrapper .thumbnail .caption{
+		border-bottom:  1px solid #d7e8e5;
+	}
+	.multy_transporting .text_items .thumbnail h3{margin-bottom: 20px;}
+	.multy_transporting .text_items .thumbnail p{margin-bottom: 25px;}
+	.our_clients h2{margin-top: 70px;margin-bottom: 60px;}
+	.our_clients .opinion p::after,
+	.our_clients .opinion p::before{display: none;}
+	.multy_transporting .img_wrapper .thumbnail .caption{padding-left: 15px;}
+	.multy_transporting .img_wrapper .caption p{
+		left: 15px;
+		top: 75px;
+		max-width: 400px;
+	}
+	.multy_transporting .img_wrapper .caption .btn{
+		left: 15px;
+	}
+	.multy_transporting .img_wrapper .caption img{
+		right: 20px;
+		top: 20px;
+	}	
+	.questions .questions_wrapper{max-width: 90%;}
 }
+
 @media only screen and (max-width : 730px) {
 	.header_content .contacts{
 		font-size: 12px;
@@ -187,7 +260,11 @@
 	.header_content .header_text h1{
 		font-size: 40px;
 	}
-
+	.center_bg_image{
+		min-height: 1100px;
+	}
+	.year_line{text-align: center;}
+	.bottom .year_line .year,.bottom .year_line .studio{float: none;}
 }	
 
 /* Extra Small Devices, Phones */
@@ -214,13 +291,65 @@
 	.header_content{
 		height: 650px;
 	}
+	.your_contacts .form-control{
+		width: 270px;
+	}
+	.center_bg_image{
+		min-height: 1200px;
+	}
+	.your_contacts h2,
+	.your_contacts p{
+		font-size: 30px;
+	}
+	.center_bg_image{
+		min-height: 1320px;
+	}
+	.your_contacts h2{
+		margin-bottom: 0;
+	}
+	.your_contacts p{
+		margin-bottom: 30px;
+		line-height: 27px;
+	}
+	.your_contacts button{margin-top: 15px;}
+	.your_contacts{padding: 60px 0;}
+	.multy_transporting .top_text h2{font-size: 31px;}
+	.multy_transporting .top_text p{margin-top: 20px;}
+	.client_logos{
+		height: 220px;
+		overflow: hidden;
+	}
+	.our_clients h2{margin: 50px 0 25px 0;}
+	.our_clients .logo_item{width: 110px;}
+	.our_clients .opinion{padding-top: 40px;padding-bottom: 50px;}
+	.our_clients .opinion p{max-width: 300px;}
+	.multy_transporting .img_wrapper .caption p{
+		max-width: 300px;
+		font-size: 13px;
+		line-height: 17px;
+	}
+	.multy_transporting .img_wrapper .caption img{
+	right: -40px;
+	top: 83px;
+	}
+	.questions{
+		background-image: none;
+		background-color: #d7e8e5;
+	}
+	.bottom .contacts{
+		font-size: 14px;
+		border-bottom: 1px solid #c8d7d9
+	}
+
 }
-
-
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	 .bottom,	
+	 .our_clients,
+	 .multy_transporting,
 	 .header_content:after,
+	 .your_contacts,
 	 .transport_container:after,.head .navbar{
 			background-image: url(../img/bg320.png);
 		}
@@ -238,7 +367,11 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 321px) {
+	 .bottom,	
+	 .our_clients,
+	 .multy_transporting,
 	 .header_content:after,
+	 .your_contacts,
 	 .transport_container:after,.head .navbar {
 			background-image: url(../img/bg768.png);
 		}
@@ -252,7 +385,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 769px) {
+	 .bottom,	
+	 .our_clients,
+	 .multy_transporting,
 	 .header_content:after,
+	 .your_contacts,
 	 .transport_container:after,.head .navbar {
 			background-image: url(../img/bg1600.png);
 		}
